@@ -16,3 +16,7 @@ parent.
 To prevent this, the project POM contains empty overrides for these elements.
 If you manually switch to a different parent and actually want the inheritance, you need to remove those overrides.
 
+
+### Notare
+
+Avand in vedere ca aveai doua clase main, dintre care una din ele in alt pachet, tind sa cred ca ai "importat" proiectul de undeva. Sper ca ma insel. Iata-l ce usor a devenit "functional".
