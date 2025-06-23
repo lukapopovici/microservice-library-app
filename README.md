@@ -12,19 +12,21 @@ This project is a Spring Boot microservice for managing a library of books. It i
 - **Scheduled Tasks:** 
   - Cache cleanup runs every hour.
   - Merkle tree is rebuilt every minute.
+## Service Diagram 
+![image](https://github.com/user-attachments/assets/d8f9dc08-738b-446c-885a-59ea4e42996c)
 
 ## Endpoints
 
 ### Print All Books
-
+```
 GET /print?format={raw|html|json}
-
+```
 - Returns all books in the specified format.
 
 ### Search Books
-
+```
 GET /find?author={author}&title={title}&publisher={publisher}&format={raw|html|json}
-
+```
 - Search by any combination of author, title, or publisher.
 - Returns results in the specified format.
 - Results are cached and validated with a Merkle tree.
