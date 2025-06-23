@@ -47,9 +47,5 @@ Configuration is managed in [`src/main/resources/application.properties`](src/ma
 - Database: SQLite (`library.db`)
 - RabbitMQ: Host, port, username, and password
 
-## Running the Application
-
-1. **Build the project:**
-   ```sh
-   ./mvnw clean install
-
+## Notare
+Avand in vedere ca aveai doua clase main, dintre care una din ele in alt pachet, tind sa cred ca ai "importat" proiectul de undeva. Sper ca ma insel. Iata-l ce usor a devenit "functional".
